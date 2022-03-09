@@ -1,10 +1,9 @@
 import tkinter
 from tkinter import *
 from PIL import ImageTk,Image
-import random
 import time
 
-guess = str()
+
 
 root = Tk()
 root.title("Tower Of Hanoi")
@@ -12,10 +11,10 @@ root.minsize(width=600, height=450)
 root.attributes("-alpha", 0.80)
 root.configure(background="#9AD0EC")
 movescount =0
-one_pos=[0,180,360]
+
 all_posx=[]
 all_posy=[]
-on_load = True
+
 
 def TowerOfHanoi(n , source, destination, auxiliary):
     global moves, movescount
@@ -111,7 +110,7 @@ all_posx.append(145)
 all_posy.append(0)
 canvas.create_image(all_posy[3], all_posx[3], anchor=NW, image=img4)
 
-enter = Button(root,text ="Start", fg="#9AD0EC", font="Helveca 30 bold",bg='#85F4FF',activebackground='#85F4FF',justify=CENTER,command=lambda:TowerOfHanoi(4 , 0, 360, 180))
+enter = Button(root,text ="Start", fg="white", font="Helveca 30 bold",bg='white',activebackground='white',highlightbackground="#71cad3",justify=CENTER,command=lambda:TowerOfHanoi(4 , 0, 360, 180),width=25,bd=0)
 enter.configure(bg='#85F4FF')
 
 enter.place(relx=0.5, rely=0.9, anchor=CENTER)
