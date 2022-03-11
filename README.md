@@ -1,6 +1,9 @@
 # Tower-Of-Hanoi
 This is a Python visualiser of the tower of Hanoi puzzle
 <br></br>
-<br></br>
-![Kapture 2022-03-09 at 20 50 20](https://user-images.githubusercontent.com/76784461/157533616-73c3f058-c902-4fa6-977c-f8856996c616.gif)
+
+
+<img width =600 src=https://user-images.githubusercontent.com/76784461/157882125-92bdfd5b-bae2-4750-b596-19666d9932db.gif>
+
+
 
